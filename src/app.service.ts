@@ -40,7 +40,7 @@ export class AppService {
         <body>
           <h1>GraphQL API</h1>
           <p>
-            appolo page: <a href="/graphql"><code>/graphql</code></a>
+            Apollo page: <a href="/graphql"><code>/graphql</code></a>
           </p>
 
           <h2>Пример запроса</h2>
