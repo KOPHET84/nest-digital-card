@@ -17,5 +17,5 @@ COPY --chown=node:node --from=builder /usr/src/app/node_modules ./node_modules
 COPY --chown=node:node --from=builder /usr/src/app/dist ./dist
 COPY --chown=node:node prisma.config.ts ./
 EXPOSE 3000
-CMD ["sh", "-c", "npx prisma db push && npx prisma db seed && node dist/main.js"]
-# CMD ["node", "dist/main.js"]
+#CMD ["sh", "-c", "npx prisma db push && npx prisma db seed && node dist/main.js"]
+CMD ["node", "dist/main.js"]
