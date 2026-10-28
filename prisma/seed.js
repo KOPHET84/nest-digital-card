@@ -13,7 +13,7 @@ async function main() {
 
   await prisma.profile.create({
     data: {
-      name: 'Новое имя 2',
+      name: 'Новое имя 4',
       description: 'Описание',
       skills: {
         create: [{ name: 'TypeScript' }, { name: 'NestJS' }],
