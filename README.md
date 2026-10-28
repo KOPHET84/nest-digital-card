@@ -3,7 +3,7 @@
 Backend-приложение «Digital Business Card»: GraphQL API, через которое можно получить
 информацию о специалисте - профиль, навыки, опыт работы и проекты.
 
-### Развернутое приложение на Render: https://nest-digital-card.onrender.com/
+### Развернутое приложение на Render: https://nest-digital-card.onrender.com/graphql
 
 ## Стек
 
